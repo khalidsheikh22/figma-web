@@ -1,0 +1,58 @@
+        /* normal desktop:1200px */
+        
+        @media (min-width: 1200px) and (max-width: 1500px) {
+            .container {
+                width: 970px;
+                margin: auto;
+            }
+        }
+        /* Normal desktop:992px */
+        
+        @media (min-width: 992px) and (max-width: 1200px) {}
+        /* tablet desktop : 768px */
+        
+        @media (min-width: 768px) and (max-width: 991px) {
+            .container {
+                width: 740px;
+                margin: auto;
+            }
+            .home-text h2 {
+                font-size: 35px;
+            }
+            .home-text h1 {
+                font: size 50px;
+            }
+            .home-area {
+                height: 500px;
+            }
+            .dark-overlay {
+                height: 500px;
+            }
+            .home-content {
+                padding-top: 150px;
+            }
+            .about-text p {
+                font-size: 15px;
+                line-height: 22px;
+                padding-top: 0;
+            }
+            .services-text {
+                padding-top: 35px;
+            }
+            .office-text p {
+                font-size: 15px;
+                line-height: 22px;
+                padding-top: 0px;
+            }
+        }
+        /* ex-small mobile :32opx */
+        
+        @media (max-width :767px) {
+            .container {
+                width: 97%;
+                margin: auto;
+            }
+        }
+        /* large mobile :480px */
+        
+        @media only screen and (main-width: 480px) and (max-width: 767px) {}

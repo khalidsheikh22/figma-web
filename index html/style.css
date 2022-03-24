@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lobster&family=Poppins:wght@500&family=Yeseva+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    transition: .3s;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+.container-full {
+    width: 98%;
+    margin: auto;
+}
+
+.clear {
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* headers */
+
+.header-area {
+    background-image: linear-gradient(to right, #29044e, #d461aa, #ff6265, #ffb554, #f6f48a);
+}
+
+#nav {
+    height: 70px;
+}
+
+.nav-logo {
+    float: left;
+}
+
+.nav-logo a {
+    font-size: 30px;
+    color: #fff;
+    padding: 10px 0;
+    display: block;
+}
+
+.main-menu {
+    float: right;
+}
+
+.main-menu ul {}
+
+.main-menu ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.main-menu ul li a {
+    padding: 10px 0;
+    color: #fff;
+    font-size: 20px;
+    display: block;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.main-menu ul li a::before {
+    content: "";
+    position: absolute;
+    background: white;
+    width: 0;
+    height: 2px;
+    bottom: 3px;
+}
+
+.main-menu ul li a:hover:before {
+    width: 100%;
+}
+
+
+/* home */
+
+.home-area {
+    background-image: url(../image/first.jpg);
+    height: 1200px;
+    background-size: cover;
+}
+
+.dark-overlay {
+    background-color: rgba(0, 0, 0, .7);
+    height: 1200px;
+}
+
+.home-content {
+    text-align: center;
+    padding-top: 270px;
+}
+
+.home-text {}
+
+.home-text h2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.home-text h1 {
+    font-size: 60px;
+    color: #fff;
+    font-weight: bold;
+    padding-top: 40px;
+}
+
+.home-btn {
+    padding-top: 40px;
+}
+
+.home-btn a:first-child {
+    background-color: rgb(97, 75, 75);
+    transition: .3s;
+    margin-right: 50px;
+}
+
+.home-btn a:first-child:hover {
+    background-color: #ff5321;
+}
+
+.home-btn a {
+    color: #fff;
+    background: #ff5321;
+    padding: 12px 19px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+
+/* conntent area */
+
+.about-content {
+    padding: 30px 0;
+}
+
+.about-content h2 {
+    color: #ff5321;
+    font-size: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+}
+
+.about-text {
+    float: left;
+    width: 49%;
+    padding-top: 50px;
+}
+
+.about-text h3 {
+    font-size: 30px;
+    color: #222;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.about-text p {
+    color: #222;
+    font-size: 16px;
+}
+
+.about-img {
+    float: right;
+    width: 49%;
+}
+
+span {
+    color: #ff5321;
+}
+
+.about-img img {}
+
+
+/* services */
+
+.services-content {
+    padding: 30px 0;
+}
+
+.services-content h2 {
+    text-align: center;
+    color: #ff5321;
+    text-transform: uppercase;
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+
+.services-img {
+    background-image: url(../image/brett-zeck-eyfMgGvo9PA-unsplash.jpg);
+    height: 400px;
+    float: left;
+    width: 49%;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.services-text {}
+
+.single-services {
+    float: right;
+    width: 48%;
+    margin-bottom: 20px;
+    padding-top: 50px;
+}
+
+.single-services h3 {
+    font-size: 28px;
+    color: #222;
+    position: relative;
+}
+
+.single-services h3::before {
+    content: attr"";
+    position: absolute;
+    background: #ff5321;
+    width: 3px;
+    height: 69px;
+    left: 5px;
+}
+
+.single-services h3 span {
+    color: #ff5321;
+}
+
+.single-services p {
+    font-size: 19px;
+    color: #222;
+}
+
+
+/* office */
+
+.office-content {}
+
+.office-content h2 {
+    font-size: 45px;
+    color: #ff5321;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 28px 0;
+}
+
+.office-text {
+    float: left;
+    width: 49%;
+    padding-top: 50px;
+}
+
+.office-text h3 {
+    font-size: 30px;
+    color: #222;
+    padding: 15px;
+}
+
+.office-text p {
+    font-size: 20px;
+    color: #222;
+    line-height: 34px;
+}
+
+.office-img {
+    float: right;
+    width: 49%;
+    padding-left: 20px;
+}
